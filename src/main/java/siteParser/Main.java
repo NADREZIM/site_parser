@@ -39,7 +39,7 @@ public class Main extends Thread {
         System.out.println("start");
         Writer.createFile();
         List<Thread> allThread = new LinkedList<Thread>();
-        for (int i = 1; i <= 1; i++) {
+        for (int i = 1; i <= 150; i++) {
             Thread t = new Main(i * 10);
             allThread.add(t);
             t.start();

@@ -41,7 +41,7 @@ public class EmailSender {
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress("artem.borisov260@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
-                    InternetAddress.parse("nadrezim@mail.ru"));
+                    InternetAddress.parse("nadrezim@mail.ru,iryna@testmatick.com"));
             message.setSubject("LinkedIn Companies Info");
 
             MimeBodyPart messageBodyPart = new MimeBodyPart();
