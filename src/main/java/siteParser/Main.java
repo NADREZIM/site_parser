@@ -39,8 +39,8 @@ public class Main extends Thread {
         System.out.println("start");
         Writer.createFile();
         List<Thread> allThread = new LinkedList<Thread>();
-        for (int i = 1; i <= 150; i++) {
-            Thread t = new Main(i * 10);
+        for (int i = 1; i <= 1; i++) {
+            Thread t = new Main(i * 1000);
             allThread.add(t);
             t.start();
         }
@@ -56,13 +56,16 @@ public class Main extends Thread {
     @Override
     public void run() {
         int tryCount = 0;
-        for (int i = numberOfUrl - 9; i <= numberOfUrl; i++) {
+        for (int i = numberOfUrl - 999; i <= numberOfUrl; i++) {
             String url = "https://www.linkedin.com/company/000100" + i;
             if (i >= 10) {
                 url = "https://www.linkedin.com/company/00010" + i;
             }
             if (i >= 100) {
                 url = "https://www.linkedin.com/company/0001" + i;
+            }
+            if (i==1000){
+                url = "https://www.linkedin.com/company/0002000";
             }
             logger.info("URL -> " + url);
             System.out.println("URL -> " + url);

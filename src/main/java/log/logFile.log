@@ -1,1 +1,41 @@
-
+2017-01-13 11:07:34 INFO  Main:38 - start
+2017-01-13 11:07:34 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001001
+2017-01-13 11:07:36 INFO  Main:101 - Response Code : 200
+2017-01-13 11:07:36 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:37 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:37 INFO  Main:108 - Count of request = 0
+2017-01-13 11:07:37 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:37 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:37 INFO  Main:108 - Count of request = 1
+2017-01-13 11:07:37 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:38 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:38 INFO  Main:108 - Count of request = 2
+2017-01-13 11:07:38 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:39 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:39 INFO  Main:108 - Count of request = 3
+2017-01-13 11:07:39 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:39 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:39 INFO  Main:108 - Count of request = 4
+2017-01-13 11:07:39 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:40 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:40 INFO  Main:108 - Count of request = 5
+2017-01-13 11:07:40 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:40 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:40 INFO  Main:108 - Count of request = 6
+2017-01-13 11:07:40 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:41 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:41 INFO  Main:108 - Count of request = 7
+2017-01-13 11:07:41 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:42 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:42 INFO  Main:108 - Count of request = 8
+2017-01-13 11:07:42 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:42 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:42 INFO  Main:108 - Count of request = 9
+2017-01-13 11:07:42 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001002
+2017-01-13 11:07:43 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:43 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001003
+2017-01-13 11:07:44 INFO  Main:101 - Response Code : 200
+2017-01-13 11:07:44 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001004
+2017-01-13 11:07:45 INFO  Main:101 - Response Code : 999
+2017-01-13 11:07:45 INFO  Main:108 - Count of request = 0
+2017-01-13 11:07:45 INFO  Main:70 - URL -> https://www.linkedin.com/company/0001004
