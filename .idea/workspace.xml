@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5663153-39ba-4835-9367-17c8b3ab348a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LinkedInSitesCount.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/log/logFile.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mailSender/EmailSender.java" afterPath="$PROJECT_DIR$/src/main/java/mailSender/EmailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/siteParser/Main.java" afterPath="$PROJECT_DIR$/src/main/java/siteParser/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/other/Test.java" afterPath="$PROJECT_DIR$/src/main/java/other/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LinkedInSitesCount.iws" />
@@ -902,12 +895,12 @@
       <workItem from="1485450041910" duration="1274000" />
       <workItem from="1485519335480" duration="10390000" />
       <workItem from="1485539190551" duration="4156000" />
-      <workItem from="1485768877964" duration="907000" />
+      <workItem from="1485768877964" duration="931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350653000" />
+    <option name="totallyTimeSpent" value="350677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

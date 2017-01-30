@@ -1,0 +1,7 @@
+other\Test.class
+siteParser\CSVUtils.class
+siteParser\Main.class
+siteParser\Writer.class
+mailSender\EmailSender.class
+siteParser\CVSCreateFile.class
+mailSender\EmailSender$1.class
