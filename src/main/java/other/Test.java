@@ -1,22 +1,13 @@
 package other;
 
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Created by user on 1/10/17.
@@ -24,7 +15,7 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) throws IOException, InterruptedException {
         CloseableHttpClient client = HttpClientBuilder.create().build();
-        HttpGet request = new HttpGet("https://www.linkedin.com/company/0001023");
+        HttpGet request = new HttpGet("https://www.linkedin.com/company/0003001");
         request.addHeader("User-Agent", "Mozilla/5.0");
         request.addHeader("Accept-Encoding", "gzip, deflate");
         //  request.setConfig(config);
@@ -41,7 +32,7 @@ public class Test {
         if (statusCode == 999) {
             if (tryCount == 10) {
                 tryCount = 0;
-
+// .+["][size]{4}["][:]["]([0123456789\s[ ][,]]+[-|–][0123456789\s[ ][,]]+|\d{2}[,]\d{3}[+])
             }
             System.out.println("Count of request = " + tryCount);
             ++tryCount;

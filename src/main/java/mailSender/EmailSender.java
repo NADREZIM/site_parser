@@ -19,8 +19,8 @@ public class EmailSender {
     private static final Logger logger = Logger.getLogger(EmailSender.class);
     static final String username = "artem.borisov260@gmail.com";
     static final String password = "12345bor";
-    String fileName="report.xls";
-    String pathToFile="src\\main\\java\\reportFolder\\report.xls";
+    String fileName="report.csv";
+    String pathToFile="src\\main\\java\\reportFolder\\report.csv";
 
     public void sendMail() {
 
@@ -32,7 +32,7 @@ public class EmailSender {
 
         Session session = Session.getInstance(props,
                 new javax.mail.Authenticator() {
-                    protected PasswordAuthentication getPasswordAuthentication() {
+                    protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
                         return new PasswordAuthentication(username, password);
                     }
                 });
